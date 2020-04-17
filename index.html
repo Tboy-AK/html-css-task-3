@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Akanji Oluwatobiloba">
+    <title>TBOY | Profile Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="css/profile-page.css" />
+</head>
+
+<body>
+    <div class="page-content">
+        <header>
+            <p class="page-title">User Profile</p>
+        </header>
+
+        <main class="page-main">
+            <section class="user-id">
+                <picture class="profile-picture">
+                    <img src="resources/images/IMG-20200404-WA0002.jpg" alt="profile picture" />
+                </picture>
+                <p class="username">Akanji Oluwatobiloba</p>
+                <p class="slack-id">UV5PM4KFE</p>
+            </section>
+            <section class="user-info">
+                <div class="occupation">
+                    <p class="desc">Occupation</p>
+                    <p class="detail">Software Developer</p>
+                </div>
+                <div class="user-email">
+                    <p class="desc">Email</p>
+                    <p class="detail">
+                        <a href="mailto://tobia807@gmail.com" target="_blank" rel="noreferrer noopener">
+                            tobia807@gmail.com
+                        </a>
+                    </p>
+                </div>
+                <div class="bio">
+                    <p class="desc">About </p>
+                    <p class="detail">
+                        A backend web developer with a background in Electrical and Electronics Engineering
+                        <span> </span>from Covenant University, with a learned sense of graphic design.<br /><br />
+                        Experienced with Node/Express Javascript framework
+                        <span> </span>for building APIs such as APIs for real estate businesses, social media
+                        <span> </span>and company-specific websites.<br /><br />
+                        Conversant with web development tools such as git and GitHub for version control;
+                        <span> </span>Adobe Illustrator, Photoshop and XD for visual design;
+                        <span> </span>HTML, CSS, JS, Bootstrap, JQuery, Ajax, and React for frontend development;
+                        <span> </span>Node/Express for backend development;
+                        <span> </span>CI/CD with Travis CI and hosting on Heroku.<br /><br />
+                        <span> </span>Familiar with web development practices such as TDD and Agile development.
+                    </p>
+                </div>
+                <div class="date-of-birth">
+                    <p class="desc">DOB</p>
+                    <p class="detail">5th of April</p>
+                </div>
+                <div class="address">
+                    <p class="desc">Address</p>
+                    <p class="detail">Ijaiye Agege, Lagos state.</p>
+                </div>
+                <div class="home-town">
+                    <p class="desc">Home town</p>
+                    <p class="detail">Agege</p>
+                </div>
+                <div class="state-of-origin">
+                    <p class="desc">State of Origin</p>
+                    <p class="detail">Oyo state</p>
+                </div>
+                <div class="profile-links">
+                    <p class="desc">Profile links</p>
+                    <p class="detail">
+                        <span>LinkedIn: </span>
+                        <span><a href="https://linkedin.com/in/tobi-akanji-36a922149" target="_blank"
+                                rel="noreferrer noopener">
+                                linkedin.com/in/tobi-akanji-36a922149
+                            </a></span>
+                    </p>
+                    <p class="detail">
+                        <span>Github: </span>
+                        <span><a href="https://linkedin.com/in/tobi-akanji-36a922149" target="_blank"
+                                rel="noreferrer noopener">
+                                github.com/Tboy-AK
+                            </a></span>
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="page-footer">
+            <form id="main-footer-contact-form" class="contact-form">
+                <p class="contact-form-title">Contact</p>
+                <p>
+                    <label for="contact-name">Name</label>
+                    <input type="text" name="contact-name" placeholder="Full Name" />
+                </p>
+                <p>
+                    <label for="contact-email">Email <span class="required">*</span></label>
+                    <input type="email" name="contact-email" placeholder="Email address" required />
+                </p>
+                <p>
+                    <label for="contact-phone">Phone</label>
+                    <input type="tel" name="contact-phone" placeholder="Phone number" />
+                </p>
+                <p>
+                    <label for="contact-phone">Message <span class="required">*</span></label>
+                    <textarea name="contact-message" placeholder="Type in your message" form="main-footer-contact-form"
+                        rows="6" required></textarea>
+                </p>
+                <p>
+                    <a><button type="submit">Submit</button>
+                </p>
+            </form>
+        </footer>
+    </div>
+</body>
+
+</html>

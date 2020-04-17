@@ -1,0 +1,23 @@
+body {
+    background-size: cover;
+    background: url(./resources/brand/piggyvest_background.svg) #f0f000 fixed no-repeat center;
+}
+
+.page-content {
+    margin: auto;
+    max-width: 576px;
+    color: #2a2a2a;
+    font-family: Helvetica, sans-serif;
+    padding: 0 0 16px;
+}
+
+.page-title {
+    font-size: 24px;
+    font-weight: 900;
+    color: gray;
+}
+
+a {
+    text-decoration: none;
+    color: #2194F1;
+}

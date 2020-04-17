@@ -1,0 +1,78 @@
+.page-main {
+    border: solid 1px lightgray;
+    padding: 16px;
+    background-color: #fefefe;
+}
+
+.user-id {
+    border-bottom: solid 1px lightgray;
+}
+
+.user-id p {
+    margin: 0;
+}
+
+.profile-picture {
+    display: block;
+}
+
+.user-id img {
+    width: 192px;
+    height: 192px;
+    object-fit: cover;
+}
+
+p.username {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.user-info div {
+    margin: 24px 0;
+}
+
+.user-info p {
+    margin: 0;
+}
+
+.user-info .desc {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 8px;
+}
+
+.contact-form-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.required {
+    color: red;
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.contact-form p label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form p input {
+    padding: 8px;
+}
+
+textarea[name=contact-message] {
+    font-family: inherit;
+    padding: 8px;
+    width: calc(100% - (8px + 8px));
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 8px;
+    background-color: #2a2a2a;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    cursor: pointer;
+}
